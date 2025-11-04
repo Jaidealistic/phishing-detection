@@ -4,7 +4,7 @@ import torch
 
 # ─── Page Setup ────────────────────────────────────────────────
 st.set_page_config(page_title="Phishing Detection", page_icon="🛡️", layout="centered")
-st.title("🛡️ Phishing Detection System")
+st.title("Phishing Detection System")
 st.write("Detect phishing in **Emails** and **URLs** using fine-tuned BERT and DistilBERT models.")
 
 # ─── Load Saved Models ─────────────────────────────────────────
@@ -58,4 +58,4 @@ else:
             st.caption(f"Confidence: {score:.2f}")
 
 st.divider()
-st.caption("Built with 🤖 BERT (Email) and DistilBERT (URL) — fine-tuned on phishing datasets.")
+st.caption("Built with BERT (Email) and DistilBERT (URL) — fine-tuned on phishing datasets.")
