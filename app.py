@@ -8,8 +8,8 @@ st.title("🛡️ Phishing Detection System")
 st.write("Detect phishing in **Emails** and **URLs** using fine-tuned BERT and DistilBERT models.")
 
 # ─── Load Saved Models ─────────────────────────────────────────
-email_model_path = "jaisubi006/final_email_bert/tree/main/final_email_bert"
-url_model_path   = "jaisubi006/final_email_bert/tree/main/final_url_bert"
+email_model_path = "jaisubi006/final_email_bert"
+url_model_path   = "jaisubi006/final_url_distilbert"
 
 device = 0 if torch.cuda.is_available() else -1
 
